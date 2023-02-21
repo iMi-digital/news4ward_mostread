@@ -1,5 +1,5 @@
 {
-  "name": "psi/news4ward_mostread",
+  "name": "imi/news4ward_mostread",
   "description": "Read hit counter for News4ward",
   "keywords": ["news", "blog"],
   "type": "contao-module",
@@ -10,19 +10,26 @@
       "email": "wio@psitrax.de.de",
       "homepage": "http://4wardmedia.de",
       "role": "Developer"
+    },
+    {
+      "name": "iMi digital GmbH",
+      "homepage": "https://www.imi-digital.de",
+      "role": "Maintainer"
     }
   ],
   "support": {
-    "email": "wio@psitrax.de.de",
-    "issues": "https://github.com/psi-4ward/news4ward_tags/issues?direction=desc&sort=created&state=open",
+    "issues": "https://github.com/iMi-digital/news4ward_mostread/issues",
     "forum": "https://community.contao.org/de/forumdisplay.php?110-4ward",
     "irc": "irc://irc.freenode.org/contao.de",
-    "source": "https://github.com/psi-4ward/news4ward_tags"
+    "source": "https://github.com/iMi-digital/news4ward_mostread"
   },
   "require": {
     "php": ">=5.3",
     "contao/core": ">=3.1,<4",
-    "psi/news4ward": "~2"
+    "imi/news4ward": "~2"
+  },
+  "replace":{
+    "psi/news4ward_mostread": "self.version"
   },
   "conflict": {
     "contao/core": "3.0.*"
